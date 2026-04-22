@@ -1,0 +1,34 @@
+.stats-section {
+  background: linear-gradient(135deg, #020617, #0f172a);
+}
+
+/* CARD STYLE */
+.stat-card {
+  padding: 40px 20px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* GRADIENT NUMBER */
+.stat-number {
+  font-size: 48px;
+  font-weight: 800;
+  background: linear-gradient(90deg,#3b82f6,#9333ea,#ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* TEXT */
+.stat-text {
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+}

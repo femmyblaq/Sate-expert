@@ -1,0 +1,87 @@
+.footer-section{
+  background:#020617;
+  color:white;
+}
+
+/* LOGO */
+.footer-logo{
+  font-weight:800;
+  font-size:24px;
+  background: linear-gradient(90deg,#3b82f6,#9333ea,#ec4899);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+/* TEXT */
+.footer-text{
+  color:#94a3b8;
+  font-size:14px;
+}
+
+/* TITLES */
+.footer-title{
+  font-weight:700;
+  margin-bottom:15px;
+}
+
+/* LINKS */
+.footer-links{
+  list-style:none;
+  padding:0;
+}
+
+.footer-links li{
+  margin-bottom:8px;
+}
+
+.footer-links a{
+  text-decoration:none;
+  color:#cbd5e1;
+  font-size:14px;
+  transition:0.3s;
+}
+
+.footer-links a:hover{
+  color:white;
+}
+
+/* SOCIAL ICONS */
+.footer-socials a{
+  font-size:20px;
+  margin-right:10px;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.footer-socials a:hover{
+  transform:scale(1.2);
+}
+
+/* SUBSCRIBE */
+.footer-subscribe{
+  display:flex;
+  gap:8px;
+}
+
+.footer-subscribe input{
+  flex:1;
+  padding:8px;
+  border-radius:6px;
+  border:none;
+}
+
+.footer-subscribe button{
+  background:#2563eb;
+  border:none;
+  padding:8px 14px;
+  color:white;
+  border-radius:6px;
+}
+
+/* BOTTOM BAR */
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,0.08);
+  padding:15px;
+  font-size:14px;
+  color:#94a3b8;
+}

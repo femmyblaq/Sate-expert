@@ -1,0 +1,99 @@
+.features-section {
+  background: linear-gradient(135deg,#020617,#0f172a);
+  color: white;
+}
+
+/* TITLE GRADIENT */
+.features-title {
+  font-size: 42px;
+  font-weight: 800;
+  background: linear-gradient(90deg,#3b82f6,#9333ea,#ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* CARD */
+.feature-card {
+  padding: 40px 30px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.35s ease;
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* ICON */
+.feature-icon {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+/* HEADING */
+.feature-heading {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.feature-text {
+  color: #d1d5db;
+  font-size: 15px;
+}
+
+
+
+/* BENEFITS */
+
+.benefits-section{
+  background: linear-gradient(135deg,#020617,#0f172a);
+  color:white;
+}
+
+/* TITLE */
+.benefits-title{
+  font-size:42px;
+  font-weight:800;
+  background: linear-gradient(90deg,#3b82f6,#9333ea,#ec4899);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+/* CARD */
+.benefit-card{
+  padding:35px 25px;
+  border-radius:18px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border:1px solid rgba(255,255,255,0.08);
+  transition:all .35s ease;
+  height:100%;
+}
+
+.benefit-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 20px 40px rgba(0,0,0,.4);
+}
+
+/* ICON */
+.benefit-icon{
+  font-size:36px;
+  margin-bottom:15px;
+}
+
+/* HEADING */
+.benefit-heading{
+  font-weight:700;
+  margin-bottom:8px;
+}
+
+/* TEXT */
+.benefit-text{
+  color:#cbd5e1;
+  font-size:14px;
+}
