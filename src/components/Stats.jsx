@@ -39,28 +39,28 @@ export default function Stats() {
           <div className="col-md-3">
             <div className="stat-card">
               <CountUp end={500} suffix="+" />
-              <p className="stat-text text-black">Students Trained</p>
+              <p className="stat-text">Students Trained</p>
             </div>
           </div>
 
           <div className="col-md-3">
             <div className="stat-card">
               <CountUp end={4} />
-              <p className="stat-text text-black">Core Programs</p>
+              <p className="stat-text">Core Programs</p>
             </div>
           </div>
 
           <div className="col-md-3">
             <div className="stat-card">
               <CountUp end={90} suffix="%" />
-              <p className="stat-text text-black">Job Readiness</p>
+              <p className="stat-text">Job Readiness</p>
             </div>
           </div>
 
           <div className="col-md-3">
             <div className="stat-card">
               <h2 className="stat-number">24/7</h2>
-              <p className="stat-text text-black">Mentor Support</p>
+              <p className="stat-text">Mentor Support</p>
             </div>
           </div>
 

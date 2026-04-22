@@ -3,7 +3,7 @@ import "../pages/about.css";
 
 export default function About() {
   return (
-    <div>
+    <div id="AboutPage">
 
       {/* HERO */}
 

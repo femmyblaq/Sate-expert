@@ -21,24 +21,53 @@ export default function Header() {
     }`}>
 
       {/* SUB HEADER */}
-      <div className={`text-gray-300 py-1 text-sm transition-all duration-300 ${
-        scrolled
-          ? "bg-gray-900/90 backdrop-blur"
-          : "bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900"
-      }`}>
-        <div className="container flex justify-end gap-6">
-          <Link to="/support" className="hover:text-white transition">
-            Support
-          </Link>
-          <Link to="/faq" className="hover:text-white transition">
-            Help Center
-          </Link>
-          <Link to="/login" className="hover:text-white transition">
-            Student Login
-          </Link>
-        </div>
-      </div>
+     <div
+  className={`text-gray-300 text-sm transition-all duration-300 ${
+    scrolled
+      ? "bg-gray-900/90 backdrop-blur shadow-sm"
+      : "bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900"
+  }`}
+>
+  <div className="container flex justify-between items-center py-2">
 
+    {/* LEFT SIDE */}
+
+    <div className="hidden md:flex items-center gap-4 text-xs">
+      <span>📧 info@sateexpert.com</span>
+      <span className="text-gray-500">|</span>
+      <span>📞 +234 XXX XXX XXXX</span>
+    </div>
+
+
+    {/* RIGHT SIDE */}
+
+    <div className="flex items-center gap-3">
+
+      <Link
+        to="/support"
+        className="px-3 py-1 rounded-md flex text-decoration-none items-center gap-1 hover:bg-gray-700 transition"
+      >
+        🛠 Support
+      </Link>
+
+      <Link
+        to="/faq"
+        className="px-3 py-1 rounded-md flex text-decoration-none  items-center gap-1 hover:bg-gray-700 transition"
+      >
+        ❓ Help Center
+      </Link>
+
+      <Link
+        to="/login"
+        className="bg-indigo-600 hover:bg-indigo-500 text-white px-3 py-1 rounded-md font-medium transition"
+      >
+        Student Login
+      </Link>
+
+    </div>
+
+  </div>
+</div>
       {/* MAIN NAVBAR */}
       <nav
         className={`navbar navbar-expand-lg px-4 py-3 transition-all duration-300 ${
